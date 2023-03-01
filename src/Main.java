@@ -7,5 +7,11 @@ public class Main {
       st2.setGrade(17.5);
       st1.printStudentInfo();
       st2.printStudentInfo();
+      System.out.println("\n---- LAB INFORMATION -----");
+      Lab la1 = new Lab("Mr.Smith" , "Monday" , 5);
+      la1.printLabInfo();
+      System.out.println("----- STUDENTS INFORMATION -----");
+      la1.calAvg();
+
    }
 }
